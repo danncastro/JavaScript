@@ -17,8 +17,8 @@ function sub() {
 var valoratual = document.getElementById("contador");
 var contador = 0;
 
-inclement.addEventListener("click", adicao);
-declement.addEventListener("click", subtracao);
+adiciona.addEventListener("click", adicao);
+subtrai.addEventListener("click", subtracao);
 
 function adicao() {
     if (contador >= 10){
@@ -30,7 +30,7 @@ function adicao() {
 }
 
 function subtracao() {
-    if (contador <= 0){
+	if (contador <= 0){
         removeEventListener("click", subtracao);
     }else{
         contador = contador -1;
