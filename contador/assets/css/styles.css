@@ -1,59 +1,32 @@
 body{
-	background: #00d4ff;
-	height: 720px;
+	background: #030303;
+	height: 750px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	color: #6f797d;
+	color: #333c3f;
 }
 
-.container{
-	width: 50%;
+.flex-container{
+	width: 70%;
 	height: 360px;
-	background-color: #272f32;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}
-
-.top{
-	height: 35px;
-	display: flex;
-	align-items: center;
-	padding-left: 15px;
-	padding-top: 5px;
-}
-
-.botoes{
-	display: flex;
-	justify-content: flex-start;
-	font-size: 50px;
-}
-
-.vermelho{
-	color: red;
-	width: 30px;
-}
-
-.amarelo{
-	color: yellow;
-	width: 30px;
-}
-
-.verde{
-	color: green;
-	width: 30px;
-	
+	background-color: #1da3d8;
+	border-radius: 20px 20px 20px 20px;
 }
 
 .h1{
-	width: 70%;
+	width: 100%;
 	text-align: center;
 }
 
 h1{
-	font-size: 25px;
+	font-size: 30px;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
+}
+
+.top p{
+	font-size: 20px;
 }
 
 .counter{
@@ -65,12 +38,12 @@ h1{
 }
 
 .counter button{
-	background: #00d4ff;
-	height: 80px;
-	width: 80px;
+	background: #333c3f;
+	height: 70px;
+	width: 70px;
 	margin-left: 40px;
 	margin-right: 40px;
-	border-radius: 20px;
+	border-radius: 50px 50px 50px 50px;
 	border: none;
 }
 
@@ -91,15 +64,14 @@ h1{
 }
 
 #contador{
-	font-size: 80px;
+	font-size: 60px;
 }
 
 .main{
-	padding-top: 10px;
 	display: flex;
 	justify-content: flex-end;
 	letter-spacing: 1px;
-	margin-right: 20px;
+	margin-right: 165px;
 }
 
 .primeiro-projeto{
