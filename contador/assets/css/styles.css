@@ -1,1 +1,115 @@
+body{
+	background: #00d4ff;
+	height: 720px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #6f797d;
+}
 
+.container{
+	width: 50%;
+	height: 360px;
+	background-color: #272f32;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.top{
+	height: 35px;
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+
+.botoes{
+	display: flex;
+	justify-content: flex-start;
+	font-size: 50px;
+}
+
+.vermelho{
+	color: red;
+	width: 30px;
+}
+
+.amarelo{
+	color: yellow;
+	width: 30px;
+}
+
+.verde{
+	color: green;
+	width: 30px;
+	
+}
+
+.h1{
+	width: 70%;
+	text-align: center;
+}
+
+h1{
+	font-size: 25px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.counter{
+	margin-top: 100px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.counter button{
+	background: #00d4ff;
+	height: 80px;
+	width: 80px;
+	margin-left: 40px;
+	margin-right: 40px;
+	border-radius: 20px;
+	border: none;
+}
+
+#subtrai{
+	font-size: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+#adiciona{
+	font-size: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+#contador{
+	font-size: 80px;
+}
+
+.main{
+	padding-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+	letter-spacing: 1px;
+	margin-right: 20px;
+}
+
+.primeiro-projeto{
+	width: 60%;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.img img{
+	max-width: 100px;
+	border-radius: 50px;
+	margin-left: 30px;
+}
