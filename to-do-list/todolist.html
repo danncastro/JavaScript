@@ -5,3 +5,34 @@ Crie um campo de input de texto e um botão para adicionar a tarefa à lista;
 Quando o botão for pressionado, o texto deve aparecer na lista com um checkbox ao lado;
 Quando o usuário selecionar o checkbox, o item correspondente deve ficar com o texto riscado. (ex.: tarefa completa. dica: você pode resolver isso facilmente com CSS)
 O resultado esperado é parecido com este: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+
+</head>
+<body>
+
+    <div class="flex-container">
+		<div class="title">
+			<h1>To Do List</h1>
+		</div>
+		<div class="funcionamento">
+			<input id="tarefa1" type="text" name="tarefa1" placeholder="Digite sua tarefa">
+			<button id="adicionar">+</button>
+		</div>
+		<div class="to-do-list">
+			<ul>
+				<li id="tarefa"></li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src="./assets/js/script.js"></script>
+    
+</body>
+</html>

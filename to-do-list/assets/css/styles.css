@@ -1,0 +1,74 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	background-color: black;
+}
+
+.flex-container{
+	margin-top: 600px;
+	padding: 100px 100px 100px 100px;
+	border: solid goldenrod;
+	border-radius: 50px 50px 50px 50px;
+	background-color: rgb(48, 116, 156);
+}
+
+.title{
+	min-width: 500px;
+	text-align: center;
+	margin-bottom: 50px;
+    color: goldenrod;
+}
+
+.funcionamento{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 40px;
+}
+
+#tarefa1, #adicionar{
+	border-radius: 0px;
+	border: none;
+}
+
+.funcionamento input{
+	height: 40px;
+	width: 80%;
+	font-size: 1.1rem;
+	padding-left: 2px;
+	
+}
+
+#adicionar{
+	width: 15%;
+	font-size: 1.2rem;
+	background-color: goldenrod;
+}
+
+li{
+	list-style: none;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+    color: goldenrod
+}
+
+li input:checked + label{
+	color: red;
+	text-decoration: line-through;
+}
+
+#tarefa label{
+	padding-left: 5px;
+}
+
+#pula-linha{
+	margin-bottom: 10px;
+}
