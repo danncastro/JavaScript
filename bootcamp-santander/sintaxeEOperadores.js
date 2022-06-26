@@ -22,15 +22,15 @@ function comparaValores(num1, num2){
 
 function somaValores(num1, num2){
     const soma = num1 + num2;
-    let maiorDez = 'menor';
-    let maiorVinte = 'menor';
+    let maiorDez = 'maior';
+    let maiorVinte = 'maior';
 
-    if (soma > 10){
-        maiorDez = 'maior';
+    if (soma < 10){
+        maiorDez = 'menor';
     }
 
-    if (soma > 20){
-        maiorVinte = 'maior';
+    if (soma < 20){
+        maiorVinte = 'menor';
     }
 
     return `Sua soma é ${soma}, que é ${maiorDez} do que 10 e ${maiorVinte} do que 20.`;
@@ -43,4 +43,4 @@ function recebeValor(num1, num2){;
     return `${comparador} ${somador}`
 }
 
-console.log(recebeValor(4, 5));
+console.log(recebeValor(1, 2));
